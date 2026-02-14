@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -199,3 +200,161 @@ body {
     flex-direction: column;
   }
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* HEADER */
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #1a2238;
+  color: white;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 16px;
+}
+
+.main-nav li {
+  list-style: none;
+}
+
+.main-nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #ff6d3d;
+  transform: rotate(1deg);
+}
+
+/* HERO */
+.hero {
+  padding: 64px 0 80px;
+  background-color: #1a2238;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  max-width: 500px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1658e7;
+}
+
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* SECTION */
+.section {
+  padding: 64px 0;
+}
+
+.bg-light {
+  background-color: #f7f7f7;
+}
+
+/* LIST & ITEM */
+.list {
+  list-style: none;
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  margin-top: 32px;
+}
+
+.item {
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: transparent;
+}
+
+/* GRID & CARD */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #1a2238;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+/* UTIL */
+.center {
+  text-align: center;
+}
+
+.gap {
+  margin-top: 12px;
+}
+>>>>>>> 132299a3fdfc8e16e9863adcf86e31d378f578df
